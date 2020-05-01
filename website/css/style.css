@@ -1,0 +1,141 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+body {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 200;
+}
+
+
+header {
+  color: white;
+  padding-top: 40vh;
+  padding-bottom: 40vh;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* THESE ARE CLASSES THAT BOOTSTRAP HAS DEFINED. AMENDING / OVERWRITING THEM */
+
+.bg-dark {
+  background: black !important;
+}
+
+.nav-link {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.navbar-brand {
+  font-size: 16px;
+}
+
+.row {
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* This is the footer container */
+.py-5 {
+  /* background */
+  padding: 20px;
+  /* border-style: solid; */
+}
+
+/* THESE ARE ATTRIBUTES THAT WE'RE DEFINING */
+
+.section_title {
+  padding-bottom: 10px;
+}
+
+.header_background {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  vertical-align: center;
+  /* background: url('../images/banner_image_smaller.jpg'); */
+
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.80),
+    rgba(0, 0, 0, 0.80)
+  ),
+  url('../images/banner_image_smaller.jpg');
+  background-size: 100%;
+  background-color: white;
+}
+
+
+.title_text {
+  font-weight: 800;
+  font-size: 5vw;
+  text-align: left;
+  max-width: 100%;
+}
+
+.subtitle_text {
+  padding-top: 20px;
+  font-size: 2vw;
+  font-weight: 100;
+  color: rgba(255,255,255,.85);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.footer_text {
+  text-align: right;
+  color: black;
+  font-size: 14px;
+  color: rgba(0,0,0,.75);
+}
+
+.section_paragraph {
+  font-size: 15px;
+}
+
+.diagram {
+  max-width: 75%;
+  padding: 20px;
+}
+
+.diagram_wrapper {
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* SOME MEDIA QUERIES TO MAKE IT RESPONSIVE BABY */
+@media only screen and (max-width: 1000px) {
+  .title_text {
+    font-weight: 800;
+    font-size: 6vw;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .subtitle_text {
+    padding-top: 20px;
+    font-size: 3vw;
+    font-weight: 100;
+    color: rgba(255,255,255,.85);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+  }
+
+  .row {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
