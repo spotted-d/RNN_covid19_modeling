@@ -1,4 +1,4 @@
 # disease_project
 
 # Website
-https://spottedd-spotify.github.io/disease_project/index.html
+https://spotted-d.github.io/disease_project/index.html
