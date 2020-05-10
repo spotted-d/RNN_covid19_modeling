@@ -1,3 +1,5 @@
+import datetime
+
 states_to_abbrev = {
     'Alabama': 'AL',
     'Alaska': 'AK',
@@ -54,8 +56,18 @@ states_to_abbrev = {
     'Washington': 'WA',
     'West Virginia': 'WV',
     'Wisconsin': 'WI',
-    'Wyoming': 'WY'
+    'Wyoming': 'WY',
+    'United States': 'USA'
 }
 
 
 abbrev_to_states = dict(map(reversed, states_to_abbrev.items()))
+
+def days_since_20200101(df):
+    # Austin's function for labeling create days_since_20200101 col
+    START_DATE = datetime.datetime.strptime("2020-01-01", "%Y-%m-%d")
+    df["days_since_20200101"] = (df["date"] - START_DATE).dt.days
+
+    return df
+
+
